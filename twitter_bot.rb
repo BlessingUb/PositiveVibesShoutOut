@@ -54,4 +54,4 @@ quotes_bank = [
 ]
 # client.update(quotes_bank.sample)
 client.update_with_media(quotes_bank.sample, Dir.glob("images/*.jpeg").sample)
- sleep(5.minutes)
+ sleep 43200
